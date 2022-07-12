@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Adopet</title>
+	<link class="favicon" rel="icon" type="image/x-icon" href="./assets/img/favicon-adopet.svg">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body class="home__header">
+
+	<header class="header">
+		<nav>
+			<div class="menu">
+				<ul class="menu__lista">
+					<li class="menu__item menu__link--logo">
+						<a class="menu__link" href="index.html">
+							<div class="menu__logo"></div>
+							<p class="menu__descricao">Página inicial</p>
+						</a>
+					</li>
+					<li class="menu__item">
+						<a class="menu__link" href="home.html">
+							<div class="menu__icone menu__icone--home"></div>
+							<p class="menu__descricao">Home</p>
+						</a>
+					</li>
+					<li class="menu__item">
+						<a class="menu__link" href="mensagem.html">
+							<div class="menu__icone menu__icone--mensagem"></div>
+							<p class="menu__descricao">Enviar mensagem</p>
+						</a>
+					</li>
+				</ul>
+				<ul class="menu__item--usuario">
+					<li class="">
+						<a class="menu__link" href="perfil.html">
+							<div class="menu__usuario"></div>
+							<p class="menu__descricao menu__descricao--usuario">Ver perfil</p>
+						</a>
+					</li>
+				</ul>
+			</ul>
+		</nav>
+	</header>
+
+	<main class="home__background">
+		<section class="home__container">
+			<h2 class="home__titulo">
+				<span class="home__titulo--quebra">Olá!</span> 
+				<span class="home__titulo--quebra">Veja os amigos disponíveis para adoção!</span> 
+			</h2>
+			<div class="categorias">
+				<input type="radio" name="categorias" id="todos" class="categorias__item categorias__item--todos" checked>
+				<label for="todos" class="categorias__texto categorias__texto--todos">todos</label>
+
+				<input type="radio" name="categorias" id="caes" class="categorias__item categorias__item--caes">
+				<label for="caes" class="categorias__texto categorias__texto--caes">cães</label>
+
+				<input type="radio" name="categorias" id="gatos" class="categorias__item categorias__item--gatos">
+				<label for="gatos" class="categorias__texto categorias__texto--gatos">gatos</label>
+
+				<hr class="categorias__linha">
+
+				<div class="card__lista">
+					<div class="card card--caes">
+						<img src="./assets/img/pets/imagem-dunga.png" alt="Cachorro Dunga" class="card__imagem">
+						<div class="card__conteudo">
+							<h3 class="card__titulo">Dunga</h3>
+							<p class="card__texto">
+								2 anos<br>
+								Porte pequeno<br>
+								Calmo e educado
+							</p>
+							<p class="card__localizacao">Rio de Janeiro (RJ)</p>
+							<a href="mensagem.html" class="card__mensagem">
+								<img src="./assets/img/icone-mensagem.svg" alt="ícone para mandar mensagem" class="card-mensagem__imagem">
+								<p class="card-mensagem__texto">Falar com responsável</p>
+							</a>
+						</div>
+					</div>
+					<div class="card card--gatos">
+						<img src="./assets/img/pets/imagem-felicia.png" alt="Gato Felícia" class="card__imagem">
+						<div class="card__conteudo">
+							<h3 class="card__titulo">Felícia</h3>
+							<p class="card__texto">
+								3 meses<br>
+								Porte pequeno<br>
+								Ativa e carinhosa
+							</p>
+							<p class="card__localizacao">Nova Iguaçu (RJ)</p>
+							<a href="mensagem.html" class="card__mensagem">
+								<img src="./assets/img/icone-mensagem.svg" alt="ícone para mandar mensagem" class="card-mensagem__imagem">
+								<p class="card-mensagem__texto">Falar com responsável</p>
+							</a>
+						</div>
+					</div>
+					<div class="card card--caes">
+						<img src="./assets/img/pets/imagem-sirius.png" alt="Cachorro Dunga" class="card__imagem">
+						<div class="card__conteudo">
+							<h3 class="card__titulo">Sirius</h3>
+							<p class="card__texto">
+								6 meses<br>
+								Porte grande<br>
+								Ativo e educado
+							</p>
+							<p class="card__localizacao">Duque de Caxias (RJ)</p>
+							<a href="mensagem.html" class="card__mensagem">
+								<img src="./assets/img/icone-mensagem.svg" alt="ícone para mandar mensagem" class="card-mensagem__imagem">
+								<p class="card-mensagem__texto">Falar com responsável</p>
+							</a>
+						</div>
+					</div>
+					<div class="card card--caes">
+						<img src="./assets/img/pets/imagem-fiona.png" alt="Cachorro Fiona" class="card__imagem">
+						<div class="card__conteudo">
+							<h3 class="card__titulo">Fiona</h3>
+							<p class="card__texto">
+								3 anos<br>
+								Porte pequeno<br>
+								Calma e carinhosa
+							</p>
+							<p class="card__localizacao">São Gonçalo (RJ)</p>
+							<a href="mensagem.html" class="card__mensagem">
+								<img src="./assets/img/icone-mensagem.svg" alt="ícone para mandar mensagem" class="card-mensagem__imagem">
+								<p class="card-mensagem__texto">Falar com responsável</p>
+							</a>
+						</div>
+					</div>
+					<div class="card card--caes">
+						<img src="./assets/img/pets/imagem-sid.png" alt="Cachorro Sid" class="card__imagem">
+						<div class="card__conteudo">
+							<h3 class="card__titulo">Sid</h3>
+							<p class="card__texto">
+								8 meses<br>
+								Porte médio/grande<br>
+								Brincalhão e amável
+							</p>
+							<p class="card__localizacao">Rio de Janeiro (RJ)</p>
+							<a href="mensagem.html" class="card__mensagem">
+								<img src="./assets/img/icone-mensagem.svg" alt="ícone para mandar mensagem" class="card-mensagem__imagem">
+								<p class="card-mensagem__texto">Falar com responsável</p>
+							</a>
+						</div>
+					</div>
+					<div class="card card--gatos">
+						<img src="./assets/img/pets/imagem-yoda.png" alt="Gato Yoga" class="card__imagem">
+						<div class="card__conteudo">
+							<h3 class="card__titulo">Yoda</h3>
+							<p class="card__texto">
+								1 ano<br>
+								Porte médio<br>
+								Ativo e carinhoso
+							</p>
+							<p class="card__localizacao">Nova Iguaçu (RJ)</p>
+							<a href="mensagem.html" class="card__mensagem">
+								<img src="./assets/img/icone-mensagem.svg" alt="ícone para mandar mensagem" class="card-mensagem__imagem">
+								<p class="card-mensagem__texto">Falar com responsável</p>
+							</a>
+						</div>
+					</div>
+					<div class="card card--gatos">
+						<img src="./assets/img/pets/imagem-lua.png" alt="Gato Lua" class="card__imagem">
+						<div class="card__conteudo">
+							<h3 class="card__titulo">Lua</h3>
+							<p class="card__texto">
+								6 meses<br>
+								Porte médio<br>
+								Ativa e carinhosa
+							</p>
+							<p class="card__localizacao">Duque de Caxias (RJ)</p>
+							<a href="mensagem.html" class="card__mensagem">
+								<img src="./assets/img/icone-mensagem.svg" alt="ícone para mandar mensagem" class="card-mensagem__imagem">
+								<p class="card-mensagem__texto">Falar com responsável</p>
+							</a>
+						</div>
+					</div>
+					<div class="card card--caes">
+						<img src="./assets/img/pets/imagem-amora.png" alt="Cachorro Amora" class="card__imagem">
+						<div class="card__conteudo">
+							<h3 class="card__titulo">Amora</h3>
+							<p class="card__texto">
+								45 dias<br>
+								Porte grande<br>
+								Calma e carinhosa
+							</p>
+							<p class="card__localizacao">São Gonçalo (RJ)</p>
+							<a href="mensagem.html" class="card__mensagem">
+								<img src="./assets/img/icone-mensagem.svg" alt="ícone para mandar mensagem" class="card-mensagem__imagem">
+								<p class="card-mensagem__texto">Falar com responsável</p>
+							</a>
+						</div>
+					</div>
+					<div class="card card--gatos">
+						<img src="./assets/img/pets/imagem-zelda.png" alt="Gato Zelda" class="card__imagem">
+						<div class="card__conteudo">
+							<h3 class="card__titulo">Zelda</h3>
+							<p class="card__texto">
+								5 meses<br>
+								Porte médio<br>
+								Ativa e amável
+							</p>
+							<p class="card__localizacao">Rio de Janeiro (RJ)</p>
+							<a href="mensagem.html" class="card__mensagem">
+								<img src="./assets/img/icone-mensagem.svg" alt="ícone para mandar mensagem" class="card-mensagem__imagem">
+								<p class="card-mensagem__texto">Falar com responsável</p>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer class="rodape">
+		<p class="rodape__texto">2022 - Desenvolvido por <a class="rodape__link" href="#">Rubens Mendes</a>.</p>
+	</footer>
+
+</body>
+
+</html>

@@ -1,0 +1,88 @@
+.card__lista {
+	margin-top: 1em;
+
+	display: grid;
+	grid-template-columns: 100%;
+	grid-gap: 1em;
+}
+
+.card {
+	background-color: var(--cor-bg-secundaria);
+
+	padding: 1em;
+
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: 100%;
+
+	grid-gap: 0.5em;
+}
+
+.card__imagem {
+	width: 100%;
+	max-width: 148px;
+	margin: 0 auto;
+
+	grid-column: 1 / 1;
+	grid-row: 1 / 4;
+}
+
+.card__conteudo {
+	text-align: left;
+
+	grid-column: 2 / 2;
+	grid-row: 1 / 2;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.card__titulo {
+	color: var(--cor-principal);
+	font-weight: 600;
+}
+
+.card__texto {
+	color: var(--cor-quarta);
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.card__localizacao {
+	color: var(--cor-quarta);
+	font-size: 12px;
+}
+
+.card__mensagem {
+	color: var(--cor-quarta);
+	text-decoration: none;
+	cursor: pointer;
+
+	display: flex;
+	align-items: center;
+}
+
+.card-mensagem__texto {
+	font-size: 10px;
+
+	margin-left: 0.75em;
+}
+
+/* - - - Tablet - - - */
+
+@media screen and (min-width: 768px) {
+	.card__lista {
+		display: grid;
+		grid-template-columns: 50% 50%;
+	}
+}
+
+/* - - - Desktop - - - */
+
+@media screen and (min-width: 1280px) {
+	.card__lista {
+		display: grid;
+		grid-template-columns: 33.33% 33.33% 33.33%;
+	}
+}

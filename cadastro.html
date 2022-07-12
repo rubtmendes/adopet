@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Adopet | Cadastro</title>
+	<link class="favicon" rel="icon" type="image/x-icon" href="./assets/img/favicon-adopet.svg">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body class="">
+
+	<header class="header">
+		<nav class="menu">
+			<ul class="menu__lista">
+				<li class="menu__item menu__link--logo">
+					<a class="menu__link" href="index.html">
+						<div class="menu__logo"></div>
+						<p class="menu__descricao">Página inicial</p>
+					</a>
+				</li>
+				<li class="menu__item">
+					<a class="menu__link" href="home.html">
+						<div class="menu__icone menu__icone--home"></div>
+						<p class="menu__descricao">Home</p>
+					</a>
+				</li>
+				<li class="menu__item">
+					<a class="menu__link" href="mensagem.html">
+						<div class="menu__icone menu__icone--mensagem"></div>
+						<p class="menu__descricao">Enviar mensagem</p>
+					</a>
+				</li>
+			</ul>
+		</nav>
+		<div class="header__ilustracao"></div>
+	</header>
+
+	<main>
+		<section class="cadastro__container">
+			<img class="cadastro__logo" src="./assets/img/logo-adopet-azul.svg" alt="Logo da Adopet">
+			<div class="cadastro__bloco-texto">
+				<h2 class="cadastro__texto">
+					Ainda não tem cadastro?
+				</h2>
+				<p class="cadastro__texto">
+					Então, antes de buscar seu melhor amigo, precisamos de alguns dados:
+				</p>
+			</div>
+			<label for="email" class="form-externo__label">
+				Email
+			</label>
+			<input type="email" id="email" class="form-externo__input form-externo__input--desktop" placeholder="Escolha seu melhor email">
+			<label for="nome" class="form-externo__label">
+				Nome
+			</label>
+			<input type="text" id="nome" class="form-externo__input form-externo__input--desktop" placeholder="Digite seu nome completo">
+			<label for="senha" class="form-externo__label">
+				Senha
+			</label>
+			<div class="form-externo__input--senha">
+				<input type="password" id="senha" class="form-externo__input" placeholder="Crie uma senha">
+				<button class="form-externo__input--icone-senha"></button>
+			</div>
+			<label for="confirmacao-senha" class="form-externo__label">
+				Confirmar sua senha
+			</label>
+			<div class="form-externo__input--senha">
+				<input type="password" id="confirmacao-senha" class="form-externo__input form-externo__input--senha" placeholder="Repita a senha criada acima">
+				<button class="form-externo__input--icone-senha"></button>
+			</div>
+			<button type="submit" class="botoes__link botoes__link--formulario">
+				Cadastrar<span class="botoes__link--exclamacao">!</span>
+			</button>
+		</section>
+	</main>
+
+	<footer class="rodape">
+		<p class="rodape__texto">2022 - Desenvolvido por <a class="rodape__link" href="#">Rubens Mendes</a>.</p>
+	</footer>
+</body>
+
+</html>

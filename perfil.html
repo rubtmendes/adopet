@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Adopet</title>
+	<link class="favicon" rel="icon" type="image/x-icon" href="./assets/img/favicon-adopet.svg">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body class="">
+
+	<header class="header">
+		<nav>
+			<div class="menu">
+				<ul class="menu__lista">
+					<li class="menu__item menu__link--logo">
+						<a class="menu__link" href="index.html">
+							<div class="menu__logo"></div>
+							<p class="menu__descricao">Página inicial</p>
+						</a>
+					</li>
+					<li class="menu__item">
+						<a class="menu__link" href="home.html">
+							<div class="menu__icone menu__icone--home"></div>
+							<p class="menu__descricao">Home</p>
+						</a>
+					</li>
+					<li class="menu__item">
+						<a class="menu__link" href="mensagem.html">
+							<div class="menu__icone menu__icone--mensagem"></div>
+							<p class="menu__descricao">Enviar mensagem</p>
+						</a>
+					</li>
+				</ul>
+				<ul class="menu__item--usuario">
+					<li class="">
+						<a class="menu__link" href="perfil.html">
+							<div class="menu__usuario menu__usuario--foto"></div>
+							<p class="menu__descricao menu__descricao--usuario">Ver perfil</p>
+						</a>
+					</li>
+				</ul>
+			</ul>
+		</nav>
+	</header>
+	<main class="perfil__container">
+		<section>
+			<h2 class="perfil__titulo">Esse é o perfil que aparece para responsáveis ou ONGs que recebem sua mensagem.</h2>
+			<div class="form-interno__container">
+				<h3 class="form-interno__titulo">Perfil</h3>
+				<label for="imagem" class="form-interno__label">Foto</label>
+				<input type="image" id="imagem" src="./assets/img/foto-usuario.png" class="form-interno__foto" alt="Foto de perfil">
+				<a href="#" class="form-interno__link">Clique na foto para editar</a>
+				<label for="nome" class="form-interno__label">Nome</label>
+				<input type="text" id="nome" class="form-interno__input form-interno__input--perfil" placeholder="Joana Magalhães">
+				<label for="telefone" class="form-interno__label">Telefone</label>
+				<input type="tel" id="telefone" class="form-interno__input form-interno__input--perfil" placeholder="55 11 XXXXXXXXX">
+				<label for="cidade" class="form-interno__label">Cidade</label>
+				<input type="text" id="cidade" class="form-interno__input form-interno__input--perfil" placeholder="São Paulo">
+				<label for="sobre" class="form-interno__label">Sobre</label>
+				<textarea name="" id="sobre" cols="30" rows="9" class="form-interno__input form-interno__input--textarea form-interno__input--perfil" placeholder="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati."></textarea>
+				<button type="submit" class="botoes__link botoes__link--formulario form-interno__botao">Salvar</button>
+			</div>
+		</section>
+	</main>
+
+	<footer class="rodape">
+		<p class="rodape__texto">2022 - Desenvolvido por <a class="rodape__link" href="#">Rubens Mendes</a>.</p>
+	</footer>
+
+</body>
+
+</html>
