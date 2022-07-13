@@ -1,27 +1,29 @@
 # adopet
 
+A **AdoPet** é uma plataforma fictícia que conecta quem quer adotar um pet e ONGs cuidam e resgatam esses animais das ruas.
+
 
 > Status do projeto: em desenvolvimento 🚧
 
 
 # 🐾 visão geral
 
-A **AdoPet** é uma plataforma fictícia que conecta quem quer adotar um pet e ONGs cuidam e resgatam esses animais das ruas.
-
-
-| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" width="50px" alt="html"/> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" width="50px" alt="css"/> | Flexbox | Grid Layout | metodologia BEM |
-|--- |--- |--- |--- |--- |
-
-
 ![Telas do site da AdoPet](https://user-images.githubusercontent.com/95448638/178613961-a9d201e8-6909-45e5-83cb-d5f851d507db.jpg)
 
 
-**página inicial**
-**página de cadastro** (nome, email e senha)
-**página de Login** (email e senha)
-**home** - página com uma listas dos animais que buscam um lar (com foto e informações sobre o pet)
-**página de mensagem** (nome, telefone, nome do animal e mensagem)
-**página de edição de perfil** (foto, nome, telefone, cidade e sobre)
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" width="50px" alt="html"/> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" width="50px" alt="css"/> |
+|--- |--- |
+
+Flexbox | Grid Layout | metodologia BEM |
+--- |--- |--- |
+
+
+- **página inicial**
+- **página de cadastro** (nome, email e senha)
+- **página de Login** (email e senha)
+- **home** - página com uma listas dos animais que buscam um lar (com foto e informações sobre o pet)
+- **página de mensagem** (nome, telefone, nome do animal e mensagem)
+- **página de edição de perfil** (foto, nome, telefone, cidade e sobre)
 
 
 ![Tela responsiva](https://user-images.githubusercontent.com/95448638/178613975-e0a66245-4450-4370-b373-dc6fa59e4ef4.jpg)
@@ -44,7 +46,7 @@ Na **home** incluí um filtro de categoria, podendo ver todos os pets, apenas os
 Acesse a página **[clicando aqui](https://adopet-beta.vercel.app/)**
 
 
-# 🔥 4ª edição do Challenge Front-End
+# 4º Challenge Front-End
 
 
 Esse projeto está sendo desenvolvido para o **4ª edição do Challenge Front-End** da Alura.
