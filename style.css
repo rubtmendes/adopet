@@ -1,21 +1,21 @@
-@import url("./assets/css/_reset.css");
+@import url("assets/css/_reset.css");
 
-@import url("./assets/css/_body.css");
-@import url("./assets/css/_header.css");
-@import url("./assets/css/_menu.css");
-@import url("./assets/css/_rodape.css");
-@import url("./assets/css/_botoes.css");
-@import url("./assets/css/_cards.css");
-@import url("./assets/css/_categorias.css");
-@import url("./assets/css/_mensagem.css");
+@import url("assets/css/_body.css");
+@import url("assets/css/_header.css");
+@import url("assets/css/_menu.css");
+@import url("assets/css/_rodape.css");
+@import url("assets/css/_botoes.css");
+@import url("assets/css/_cards.css");
+@import url("assets/css/_categorias.css");
+@import url("assets/css/_mensagem.css");
 
-@import url("./assets/css/_formularios-externos.css");
-@import url("./assets/css/_formularios-internos.css");
+@import url("assets/css/_formularios-externos.css");
+@import url("assets/css/_formularios-internos.css");
 
-@import url("./assets/css/_inicial.css");
-@import url("./assets/css/_cadastro-login.css");
-@import url("./assets/css/_home.css");
-@import url("./assets/css/_perfil.css");
+@import url("assets/css/_inicial.css");
+@import url("assets/css/_cadastro-login.css");
+@import url("assets/css/_home.css");
+@import url("assets/css/_perfil.css");
 
 :root {
 	--cor-principal: #3772FF;		/* azul */
