@@ -1,0 +1,55 @@
+@import url("./assets/css/_reset.css");
+
+@import url("./assets/css/_body.css");
+@import url("./assets/css/_header.css");
+@import url("./assets/css/_menu.css");
+@import url("./assets/css/_rodape.css");
+@import url("./assets/css/_botoes.css");
+@import url("./assets/css/_cards.css");
+@import url("./assets/css/_categorias.css");
+@import url("./assets/css/_mensagem.css");
+
+@import url("./assets/css/_formularios-externos.css");
+@import url("./assets/css/_formularios-internos.css");
+
+@import url("./assets/css/_inicial.css");
+@import url("./assets/css/_cadastro-login.css");
+@import url("./assets/css/_home.css");
+@import url("./assets/css/_perfil.css");
+
+:root {
+	--cor-principal: #3772FF;		/* azul */
+	--cor-secundaria: #36D6AD;		/* verde */
+	--cor-botoes: #FC7071;			/* vermelho */
+	--cor-botoes-hover: #FF9D9E;	/* vermelho claro */
+	--cor-bg-principal: #FFFFFF;	/* branco */
+	--cor-bg-secundaria: #F6F6F6;	/* cinza claro BG */
+	--cor-terceira: #FCF0E3;		/* creme */
+	--cor-quarta: #737380;			/* cinza escuro */
+	--cor-quinta: #BCBCBC;			/* cinza claro */
+	--cor-branco: #FFFFFF;			/* branco */
+	--cor-preto: #000000;			/* branco */
+
+	--fonte: 'Poppins', sans-serif;
+
+	--img-logo: url("../img/logo-adopet-branco.svg");
+
+	--img-bg-1: url("../img/bg-forma-1.svg");
+	--img-bg-2: url("../img/bg-forma-2.svg");
+	--img-bg-3: url("../img/bg-forma-3.svg");
+	--img-bg-4: url("../img/ilustracao-patas.svg");
+	--img-bg-5: url("../img/ilustracao-patas-2.svg");
+
+	--img-link-home: url("../img/link-home.svg");
+	--img-link-home-hover: url("../img/link-home-hover.svg");
+	--img-link-mensagem: url("../img/link-mensagem.svg");
+	--img-link-mensagem-hover: url("../img/link-mensagem-hover.svg");
+	--img-link-usuario: url("../img/link-usuario.svg");
+	--img-link-usuario-foto: url("../img/foto-usuario.png");
+
+	--icone-senha: url("../img/senha-oculta.svg");
+}
+
+.senha-texto {
+	--icone-senha: url("../img/senha-visivel.svg");
+}
