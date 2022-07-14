@@ -68,6 +68,10 @@
 	color: var(--cor-quarta);
 }
 
+.form-interno__input--textarea {
+	resize: none;
+}
+
 .form-interno__botao {
 	margin: 2em auto 1em auto;
 }
