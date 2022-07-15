@@ -14,8 +14,8 @@ A **AdoPet** é uma plataforma fictícia que conecta quem quer adotar um pet e O
 | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" width="50px" alt="html"/> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" width="50px" alt="css"/> |
 |--- |--- |
 
-Flexbox | Grid Layout | metodologia BEM |
---- |--- |--- |
+Flexbox | Grid Layout | BEM | Atomic Design |
+--- |--- |--- |--- |
 
 
 - **página inicial**
