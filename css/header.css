@@ -1,0 +1,50 @@
+.header {
+	padding: 3em;
+
+	height: 100px;
+
+	box-sizing: border-box;
+	position: relative;
+}
+
+.header__ilustracao {
+	width: 140px;
+	height: 180px;
+	
+	position: absolute;
+	top: 0;
+	right: 0;
+
+	background-image: var(--img-bg-4);
+	background-repeat: no-repeat;
+	background-position: top -0.25em right;
+}
+
+/* - - - Tablet - - - */
+
+@media screen and (min-width: 768px) {
+	.header {
+		padding-top: 4em;
+
+		height: 150px;
+	}
+
+	.header__ilustracao {
+		width: 200px;
+		height: 275px;
+
+		background-size: 200px;
+	}
+}
+
+/* - - - Desktop - - - */
+
+@media screen and (min-width: 1280px) {
+	.header__ilustracao {
+		width: 250px;
+
+		background-image: var(--img-bg-5);
+		background-size: 250px;
+		background-position: top right;
+	}
+}
