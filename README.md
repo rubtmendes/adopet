@@ -11,7 +11,7 @@ A **AdoPet** é uma plataforma fictícia que conecta quem quer adotar um pet e O
 ![Telas do site da AdoPet](https://user-images.githubusercontent.com/95448638/178613961-a9d201e8-6909-45e5-83cb-d5f851d507db.jpg)
 
 
-| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" width="50px" alt="html"/> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" width="50px" alt="css"/> |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="50px" alt="html"/> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="50px" alt="css"/> |
 |--- |--- |
 
 Flexbox | Grid Layout | BEM | Atomic Design |
